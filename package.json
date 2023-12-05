@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "netlify-plugin-example": "^1.0.0"
+    "netlify/plugin-edge-handlers": "^1.0.0"
   }
 }
