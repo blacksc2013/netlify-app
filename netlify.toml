@@ -1,0 +1,11 @@
+[build]
+ command = "node index.js"
+ publish = "."
+
+[[plugins]]
+ package = "@netlify/plugin-edge-handlers"
+
+[edge_handlers]
+ redirects = []
+ headers = []
+ forward_events = true
